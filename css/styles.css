@@ -65,19 +65,23 @@ h3{
     font-size: 20px;
 }
 
+.portfolio img{
+width:100%;
+}
 .switch{
 background-image:url("../Images/contactus.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-height: 70vh;
+height: 60vh;
 text-align: center;
-padding: 70px;
+
 }
 form input,form textarea {
 background-color: transparent;
 border: 1px solid white;
 margin: 10px;
 padding: 30px;
+width: 70%;
 }
 input{
  width: 35%;
@@ -93,17 +97,28 @@ textarea{
 width: 60%;
 }
 footer{
-padding-top: 100px;
-padding-bottom: 70px;
+padding-bottom: 20px;
 align-items: center;
 margin: 20px;
 background-size: cover;
-background-color: rgb(247, 175, 175);
+background-color: white;
+
 }
 .play{
-padding-top: 30px;
+padding-top: 0px;
+text-align: center;
+}
+.foot{
+text-align: center;
+justify-content: space-between;
 }
 .col{
 text-align: center;
 }
-
+.work{ 
+    
+}
+h3{
+color: white;  
+padding-top: 30px;  
+}

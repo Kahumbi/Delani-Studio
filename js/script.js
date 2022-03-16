@@ -4,7 +4,7 @@ $(".col").click(function(){
 
 $(".work").mousemove(function(){
     var hover=$(this).attr("hover")
-$(this).css("border","3px solid red") 
+$(this).css("border","30px solid white") 
 $(".overlay").text (hover).show().offset($(this).offset())
 
 }).mouseout (function(){
